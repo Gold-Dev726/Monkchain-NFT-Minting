@@ -80,7 +80,10 @@ export default function MainNavbar() {
               />
             </Hidden>
 
-            <ConnectWalletButton />
+            <Button variant="contained" color="primary">
+              Join Discord
+            </Button>
+            {/* <ConnectWalletButton /> */}
           </Container>
         </ToolbarStyle>
       </AppBar>
