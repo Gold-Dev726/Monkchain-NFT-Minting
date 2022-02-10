@@ -15,18 +15,18 @@ export const connectors = [
     connectorId: ConnectorNames.Injected,
     priority: 1,
   },
-  {
-    title: "WalletConnect",
-    icon: WalletConnect,
-    connectorId: ConnectorNames.WalletConnect,
-    priority: 2,
-  },
-  {
-    title: "Trust Wallet",
-    icon: TrustWallet,
-    connectorId: ConnectorNames.Injected,
-    priority: 3,
-  },
+  // {
+  //   title: "WalletConnect",
+  //   icon: WalletConnect,
+  //   connectorId: ConnectorNames.WalletConnect,
+  //   priority: 2,
+  // },
+  // {
+  //   title: "Trust Wallet",
+  //   icon: TrustWallet,
+  //   connectorId: ConnectorNames.Injected,
+  //   priority: 3,
+  // },
   // {
   //   title: "MathWallet",
   //   icon: MathWallet,

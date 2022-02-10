@@ -59,7 +59,7 @@ export default function MainFooter() {
                   "&:hover": { transform: "scale(1.1)", bgcolor: "white" },
                 }}
                 target="_blank"
-                href="https://instagram.com/tigersverse_official?utm_medium=copy_link"
+                href="https://instagram.com/monkchains"
               >
                 <Icon icon={instagram} fontSize={18} color="black" />
               </IconButton>
@@ -70,7 +70,7 @@ export default function MainFooter() {
                   "&:hover": { transform: "scale(1.1)", bgcolor: "white" },
                 }}
                 target="_blank"
-                href="https://twitter.com/TigersVerse"
+                href="https://twitter.com/monkchains"
               >
                 <Icon icon={twitter} fontSize={18} color="black" />
               </IconButton>
@@ -81,7 +81,7 @@ export default function MainFooter() {
                   "&:hover": { transform: "scale(1.1)", bgcolor: "white" },
                 }}
                 target="_blank"
-                href="https://discord.gg/GRdpUxNQ"
+                href="https://discord.gg/monkchains"
               >
                 <Icon icon={discord} fontSize={18} color="black" />
               </IconButton>
@@ -92,11 +92,11 @@ export default function MainFooter() {
                   "&:hover": { transform: "scale(1.1)", bgcolor: "white" },
                 }}
                 target="_blank"
-                href="https://discord.gg/GRdpUxNQ"
+                href="https://opensea.io/monkchains"
               >
                 <SvgIconStyle
                   src="/images/icons/opensea.svg"
-                  sx={{ width: 20, height: 20, color: 'black' }}
+                  sx={{ width: 20, height: 20, color: "black" }}
                 />
               </IconButton>
             </Stack>

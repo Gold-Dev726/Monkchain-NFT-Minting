@@ -1,7 +1,15 @@
 import { Link as RouterLink, useLocation } from "react-router-dom";
 // material
 import { styled } from "@mui/material/styles";
-import { Box, Button, AppBar, Toolbar, Container, Hidden } from "@mui/material";
+import {
+  Box,
+  Button,
+  AppBar,
+  Toolbar,
+  Container,
+  Hidden,
+  Stack,
+} from "@mui/material";
 // hooks
 import useOffSetTop from "../../hooks/useOffSetTop";
 // components
@@ -80,10 +88,17 @@ export default function MainNavbar() {
               />
             </Hidden>
 
-            <Button variant="contained" color="primary">
-              Join Discord
-            </Button>
-            {/* <ConnectWalletButton /> */}
+            <Stack direction="row" spacing={2}>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://discord.gg/monkchains"
+                target="_blank"
+              >
+                Join Discord
+              </Button>
+              <ConnectWalletButton />
+            </Stack>
           </Container>
         </ToolbarStyle>
       </AppBar>
