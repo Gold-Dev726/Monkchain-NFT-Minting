@@ -116,7 +116,7 @@ export default function Homepage() {
             ROADMAP
           </Typography>
           <Stack
-            direction="row"
+            direction={{ xs: "column", md: "row" }}
             alignItems="center"
             justifyContent="space-between"
           >
