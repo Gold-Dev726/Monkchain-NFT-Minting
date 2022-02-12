@@ -62,7 +62,7 @@ export default function Homepage() {
               <Box
                 component="img"
                 src="/images/hero.png"
-                sx={{ mr: { xs: 0, md: -2 }, mt: { xs: 5, md: 0 } }}
+                sx={{ width: 1, mr: { xs: 0, md: -2 }, mt: { xs: 5, md: 0 } }}
               />
             </Stack>
           </Stack>
