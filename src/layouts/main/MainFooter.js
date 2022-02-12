@@ -45,11 +45,12 @@ export default function MainFooter() {
     >
       <Container maxWidth="lg">
         <Stack
-          direction="row"
+          direction={{ xs: "column", md: "row" }}
           alignItems="center"
           justifyContent="space-between"
+          spacing={{ xs: 4, md: 0 }}
         >
-          <Logo />
+          <Logo sx={{ width: { xs: 0.6, md: 'inherit' } }} />
           <Stack direction="row" justifyContent="center" alignItems="center">
             <Stack direction="row" spacing={3}>
               <IconButton

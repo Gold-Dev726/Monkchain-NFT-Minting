@@ -68,7 +68,7 @@ export default function MainNavbar() {
             }}
           >
             <RouterLink to="/">
-              <Logo sx={{ mt: 2 }} />
+              <Logo sx={{ mt: 2, width: { xs: 0.8, md: 1 } }} />
             </RouterLink>
             <Box sx={{ flexGrow: 1 }} />
 
@@ -94,10 +94,11 @@ export default function MainNavbar() {
                 color="primary"
                 href="https://discord.gg/monkchains"
                 target="_blank"
+                sx={{width: 120}}
               >
                 Join Discord
               </Button>
-              <ConnectWalletButton />
+              {/* <ConnectWalletButton /> */}
             </Stack>
           </Container>
         </ToolbarStyle>
