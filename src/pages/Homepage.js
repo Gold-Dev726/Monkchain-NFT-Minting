@@ -31,7 +31,7 @@ export default function Homepage() {
       <Container maxWidth="lg">
         <Stack>
           <Stack direction={{ xs: "column", md: "row" }} sx={{ mt: 5 }}>
-            <Stack flex={1} alignItems="flex-start">
+            <Stack alignItems="flex-start">
               <Typography variant="h1">NEXT- GENERATION</Typography>
               <br />
               <Typography variant="h1">Dynamic NFT's</Typography>
@@ -134,7 +134,7 @@ export default function Homepage() {
 
         <Stack sx={{ py: { xs: 5, md: 10 } }}>
           {/* <Typography variant="h2">MONKCHAINS</Typography> */}
-          <Box component="img" src="/images/monkchain.png" />
+          <Box component="img" src="/images/monkchain.png" sx={{ width: 1 }} />
         </Stack>
 
         <Stack alignItems="center" sx={{ py: 10 }} id="utilities">
@@ -240,6 +240,9 @@ export default function Homepage() {
                   src="/images/monk.png"
                   sx={{ width: 120 }}
                 />
+                <Typography variant="h5" sx={{ mt: -3 }}>
+                  MONKCHAINS
+                </Typography>
               </Stack>
             </Stack>
           </Stack>
