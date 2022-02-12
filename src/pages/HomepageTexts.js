@@ -11,7 +11,7 @@ export const UTILITIES = [
     icon: "chart",
     title: "Passive Income",
     description:
-      "We will start our own NFT Media Company. 10% of the monthly revenue will be distributed among the holders",
+      "We will start our own NFT Media Company and distribute 10% of the monthly revenue among the holders",
   },
   {
     color: "warning",
@@ -38,7 +38,7 @@ export const UTILITIES = [
     color: "error",
     icon: "flag",
     title: "Giveaways",
-    description: "Special ETH & USDC raffles exclusive to the holders",
+    description: "Special ETH & USDC raffles exclusively for the holders",
   },
 ];
 
@@ -50,7 +50,7 @@ export const ROADMAPS = [
   { title: "Exclusive MonkChains Merchandise" },
   { title: "Private Monk-Themed Yacht Party" },
   { title: "Monthly Raffles" },
-  { title: "Private LRL Costplay Events" },
+  { title: "Private IRL Cosplay Events" },
   { title: "Building A Temple In The Metaverse" },
   { title: "Partnerships With Meditation Classes" },
   { title: "The Launch Of Our 2nd Collection" },
@@ -62,15 +62,15 @@ export const TEAMS = [
   { name: "R3mmy", role: "Executive Manager" },
   { name: "Alex", role: "Chief Marketing Officer" },
   { name: "Alina", role: "Partnerships Director" },
-  { name: "Oleks", role: "Web 3.0 Developer" },
+  { name: "David", role: "Web 3.0 Developer" },
 ];
 
 export const ALPHA_UTILITIES = [
-  "VIP access to the future IRL events & monk themed private yacht parties",
-  "2 entries per each Alpha holded for the ETH raffles after the public mint",
-  "OG role in the Discord server",
+  "V.I.P. access to the future IRL events & Monk themed private yacht parties",
+  "Two entries per each Alpha held for the ETH raffles after the public mint",
+  "O.G. role in the Discord server",
   "Minting the upcoming MonkChains collection almost 50% cheaper than the public mint price during the private OG pre-sale",
-  "0.5 ETH reward after the public mint for per each Alpha holded",
+  "0.5 ETH reward after the public mint for per each Alpha held",
   "5 Free Mints from the upcoming MonkChains collection after the public sale",
 ];
 
@@ -78,21 +78,21 @@ export const FAQS = [
   {
     title: "What Makes MonkChains Unique?",
     answer:
-      "The whole collection is 100% handmade with more than 70 different traits. Each unique monk is exported offline, not programatically created! MonkChains NFTs will also offer exclusive benefits to the holders",
+      "The whole collection is 100% handmade with more than 70 different traits. Each unique Monk is exported offline, not programmatically created! MonkChains NFT's also offer exclusive benefits to its holders",
   },
   {
     title: "How To Buy MonkChains NFTs?",
     answer:
-      "You can mint your MonkChains NFTs  during the private & public sales. After the mint is ended you can buy your NFTs on OpenSea or Rarible",
+      "You can mint your MonkChains NFT's during the private & public sales. After the minting period ends, you can buy your NFT's on OpenSea or Rarible",
   },
   {
     title: "When Is The Official Mint Date?",
     answer:
-      "The expected official mint date is in Early or Mid March. Join our Discord for more information",
+      "The expected official mint date is in Early or Mid-March. Join our Discord for more information",
   },
   {
     title: "What Will Be The Minting Price?",
     answer:
-      "The OG private sale minting is 0.065 ETH.  The Wihtelist pre-sale minting price is 0.088 ETH.The public sale minting price is 0.1 ETH",
+      "The O.G. private sale minting price is 0.065 ETH. The Whitelist pre-sale minting price is 0.088 ETHThe public sale minting price is 0.1",
   },
 ];

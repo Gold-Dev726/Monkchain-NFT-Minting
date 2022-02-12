@@ -22,10 +22,9 @@ import {
 // ----------------------------------------------------------------------
 
 const LinkStyle = styled(Typography)(({ theme }) => ({
-  ...theme.typography.subtitle2,
-  fontSize: 17,
+  fontSize: '18px !important',
   cursor: 'pointer',
-  fontWeight: 200,
+  fontWeight: 600,
   color: "white",
   marginRight: theme.spacing(5),
   textDecoration: "none",

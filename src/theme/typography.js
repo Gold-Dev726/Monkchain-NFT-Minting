@@ -84,8 +84,9 @@ const typography = {
   },
   body1: {
     lineHeight: 1.5,
-    fontSize: pxToRem(16),
-    ...responsiveFontSizes({ xs: 14, md: 16, lg: 16 }),
+    fontWeight: 400,
+    fontSize: pxToRem(20),
+    ...responsiveFontSizes({ xs: 14, md: 16, lg: 20 }),
   },
   body2: {
     lineHeight: 22 / 14,

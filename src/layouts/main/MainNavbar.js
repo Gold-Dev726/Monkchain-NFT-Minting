@@ -55,7 +55,7 @@ export default function MainNavbar() {
           sx={{
             ...(isOffset && {
               bgcolor: "background.default",
-              height: { md: APP_BAR_DESKTOP - 16 },
+              height: { md: APP_BAR_DESKTOP - 30},
             }),
           }}
         >

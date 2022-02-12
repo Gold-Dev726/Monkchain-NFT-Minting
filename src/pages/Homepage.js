@@ -31,13 +31,13 @@ export default function Homepage() {
       <Container maxWidth="lg">
         <Stack>
           <Stack direction={{ xs: "column", md: "row" }} sx={{ mt: 5 }}>
-            <Stack alignItems="flex-start">
+            <Stack flex={1} alignItems="flex-start">
               <Typography variant="h1">NEXT- GENERATION</Typography>
               <br />
               <Typography variant="h1">Dynamic NFT's</Typography>
               <Typography color="text.secondary" fontSize={21} sx={{ mt: 2 }}>
-                MonkChains is a Next-Generation NFT collection of 4988 video
-                animated 3D monks living in a parallel digital universe.
+                MonkChains is a Next-Generation NFT collection of 4988
+                video-animated 3D monks living in a parallel digital universe.
               </Typography>
               <Stack
                 alignItems={{ xs: "center", md: "inherit" }}
@@ -75,20 +75,17 @@ export default function Homepage() {
             </Typography>
             <Typography color="text.secondary" fontSize={24} paragraph>
               Each Monk is unique and 100% handmade with more than 70 different
-              traits.. The whole collection has been exported offline, not
-              programatically created!
+              traits. The whole collection is exported offline, not
+              programmatically created! Every single layer took weeks to
+              complete. We've put great effort into making every single unique
+              Monk.
             </Typography>
             <br />
             <Typography color="text.secondary" fontSize={24} paragraph>
-              Every single layer took weeks to complete. We’ve put great effort
-              to create every single unique Monk.
-            </Typography>
-            <br />
-            <Typography color="text.secondary" fontSize={24} paragraph>
-              Designed by a very known art designer who made hundreds of designs
-              & artworks for the biggest music record labels and artists such as
-              Sony Music, Spinnin’ Records, Universal Music , Warner Music and
-              many more.
+              A well-known art designer designed the whole collection who made
+              hundreds of designs & artworks for the most prominent music record
+              labels and artists such as Sony Music, Spinnin' Records, Universal
+              Music, Warner Music, and many more.
             </Typography>
           </Stack>
         </Hidden>
@@ -104,8 +101,10 @@ export default function Homepage() {
               paragraph
             >
               Each Monk is unique and 100% handmade with more than 70 different
-              traits.. The whole collection has been exported offline, not
-              programatically created!
+              traits. The whole collection is exported offline, not
+              programmatically created! Every single layer took weeks to
+              complete. We've put great effort into making every single unique
+              Monk.
             </Typography>
             <br />
             <Typography
@@ -114,20 +113,10 @@ export default function Homepage() {
               fontSize={24}
               paragraph
             >
-              Every single layer took weeks to complete. We’ve put great effort
-              to create every single unique Monk.
-            </Typography>
-            <br />
-            <Typography
-              align="center"
-              color="text.secondary"
-              fontSize={24}
-              paragraph
-            >
-              Designed by a very known art designer who made hundreds of designs
-              & artworks for the biggest music record labels and artists such as
-              Sony Music, Spinnin’ Records, Universal Music , Warner Music and
-              many more.
+              A well-known art designer designed the whole collection who made
+              hundreds of designs & artworks for the most prominent music record
+              labels and artists such as Sony Music, Spinnin' Records, Universal
+              Music, Warner Music, and many more.
             </Typography>
           </Stack>
         </Hidden>
@@ -274,7 +263,7 @@ export default function Homepage() {
                 <Typography variant="h2">ALPHA COLLECTION</Typography>
                 <Typography color="text.secondary">
                   Alpha Monks is a limited collection of 20 dynamic Alpha Monks
-                  living in a parallel digital universe
+                  living in a parallel digital universe.
                 </Typography>
                 <Button variant="contained" color="primary">
                   Buy on OpenSea
