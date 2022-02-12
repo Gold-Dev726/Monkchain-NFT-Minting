@@ -90,9 +90,9 @@ export const FAQS = [
     answer:
       "The expected official mint date is in Early or Mid-March. Join our Discord for more information",
   },
-  {
-    title: "What Will Be The Minting Price?",
-    answer:
-      "The O.G. private sale minting price is 0.065 ETH. The Whitelist pre-sale minting price is 0.088 ETHThe public sale minting price is 0.1",
-  },
+  // {
+  //   title: "What Will Be The Minting Price?",
+  //   answer:
+  //     "The O.G. private sale minting price is 0.065 ETH.The Whitelist pre-sale minting price is 0.088 ETH. The public sale minting price is 0.1",
+  // },
 ];

@@ -265,7 +265,12 @@ export default function Homepage() {
                   Alpha Monks is a limited collection of 20 dynamic Alpha Monks
                   living in a parallel digital universe.
                 </Typography>
-                <Button variant="contained" color="primary">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  href="https://opensea.io/collection/alpha-monks-by-monkchains"
+                  target="_blank"
+                >
                   Buy on OpenSea
                 </Button>
                 <Typography>Alpha Utilities</Typography>
@@ -298,6 +303,14 @@ export default function Homepage() {
                 Alpha Monks is a limited collection of 20 dynamic Alpha Monks
                 living in a parallel digital universe
               </Typography>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://opensea.io/collection/alpha-monks-by-monkchains"
+                target="_blank"
+              >
+                Buy on OpenSea
+              </Button>
               <Box
                 component="img"
                 src="/images/alpha.png"
@@ -333,6 +346,16 @@ export default function Homepage() {
                 </Typography>
               </Stack>
             ))}
+            <Stack alignItems="center" spacing={3}>
+              <Typography variant="h4">
+                What Will Be The Minting Price?
+              </Typography>
+              <Typography align="center" color="text.secondary">
+                The O.G. private sale minting price is 0.065 ETH.
+                <br /> The Whitelist pre-sale minting price is 0.088 ETH.
+                <br /> The public sale minting price is 0.1
+              </Typography>
+            </Stack>
           </Stack>
         </Stack>
       </Container>

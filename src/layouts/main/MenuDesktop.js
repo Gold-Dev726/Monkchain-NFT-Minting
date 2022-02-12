@@ -82,7 +82,7 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
       smooth
       sx={{
         "&.active": {
-          color: "primary.main",
+          color: "warning.main",
         },
       }}
     >
