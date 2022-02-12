@@ -94,7 +94,7 @@ export default function MainNavbar() {
                 color="primary"
                 href="https://discord.gg/monkchains"
                 target="_blank"
-                sx={{ width: 120, mt: 2 }}
+                sx={{ width: 120 }}
               >
                 Join Discord
               </Button>

@@ -198,10 +198,10 @@ export default function Homepage() {
                 <Box sx={{ width: "1px", bgcolor: "white" }} />
               </Stack>
               <Stack alignItems="center">
-                <Box component="img" src="/images/monk.png" />
-                <Typography variant="h3" sx={{ mt: -3 }}>
+                <Box component="img" src="/images/monk-logo.png" />
+                {/* <Typography variant="h3" sx={{ mt: -3 }}>
                   MONKCHAINS
-                </Typography>
+                </Typography> */}
               </Stack>
             </Stack>
             <Typography variant="h4" sx={{ mt: 4 }}>
@@ -237,12 +237,9 @@ export default function Homepage() {
               <Stack alignItems="center">
                 <Box
                   component="img"
-                  src="/images/monk.png"
+                  src="/images/monk-logo.png"
                   sx={{ width: 120 }}
                 />
-                <Typography variant="h5" sx={{ mt: -3 }}>
-                  MONKCHAINS
-                </Typography>
               </Stack>
             </Stack>
           </Stack>
